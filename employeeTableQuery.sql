@@ -1,0 +1,2 @@
+CREATE TABLE Employee (Record_ID uuid NOT NULL DEFAULT gen_random_uuid(), First_Name Char(10) NOT NULL, Last_Name Char(10) NOT NULL, Empolyee_ID Integer NOT NULL, Active Char(1) CHECK(Active in ('T', 'F')), Role Char(2) CHECK(Role in ('GM', 'SM', 'CH')), Manager uuid, Password Char(10) NOT NULL, Created_On timestamp without time zone NOT NULL DEFAULT now(), Primary Key (Record_ID), Foreign key(Manager) References Employee(Record_ID));
+
