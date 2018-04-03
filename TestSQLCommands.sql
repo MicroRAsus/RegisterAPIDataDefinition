@@ -3,4 +3,4 @@ insert into employee(First_Name, Last_Name, Empolyee_ID, Active, Role, Manager, 
  values('ABC', 'ABC', 'ABC', 'T', 'GM', NULL, 'ABC');
 
 #test transactions
-insert into Transactions(id, cashierID, Amount, transType, referenceID) values (0, '0', 5000.50, 'S', NULL);
+insert into Transactions(recordID, cashierID, Amount, transType, referenceID) values (1, '0', 5000.50, 'S', NULL);
