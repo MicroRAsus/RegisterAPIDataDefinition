@@ -7,3 +7,11 @@ referenceID int
 Transaction Confirmation object:
 recordID int
 createdOn timestamp
+
+Product object:
+id uuid
+lookupCode String
+quantity int
+createdOn timestamp
+price double/float
+active String
