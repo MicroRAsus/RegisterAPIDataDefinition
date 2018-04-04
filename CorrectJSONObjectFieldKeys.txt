@@ -1,0 +1,9 @@
+Transaction object:
+cashierID String
+amount double/float
+transType String
+referenceID int
+
+Transaction Confirmation object:
+recordID int
+createdOn timestamp
