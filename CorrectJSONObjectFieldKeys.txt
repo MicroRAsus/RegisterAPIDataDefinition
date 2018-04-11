@@ -15,3 +15,18 @@ quantity int
 createdOn timestamp
 price double/float
 active String
+
+EmployeeLogin object:
+employeeID String
+passWord String
+
+Employee object:
+firstName String
+lastName String
+employeeID String
+active String
+role String
+manager String
+passWord String
+id UUID/String
+createdOn LocalDateTime/timestamp
