@@ -1,3 +1,4 @@
+For accessing create transaction API go to /api/transaction/CreateTransaction
 Transaction object:
 cashierID String
 amount double/float
@@ -30,3 +31,17 @@ manager String
 passWord String
 id UUID/String
 createdOn LocalDateTime/timestamp
+
+For accessing return transaction validation API go to /api/transaction/ValidateTransaction
+TransactionID object:
+recordID int
+
+TransactionINFO object:
+recordID int
+amount double/float
+transType String
+
+For accessing product quantity update API go to /api/product/ProductQuantityUpdate   post method
+Input takes a product class object, you only need to supply lookupcode and new quantity.
+ProductQuantityUpdateStatus object:
+status boolean
